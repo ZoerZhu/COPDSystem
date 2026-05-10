@@ -1,0 +1,23 @@
+package com.copd.dto;
+
+import lombok.Data;
+
+@Data
+public class UserInfoDTO {
+
+    private Long id;
+
+    private String username;
+
+    private String realName;
+
+    private String role;
+
+    private String phone;
+
+    private String email;
+
+    private Integer status;
+
+    private String lastLoginTime;
+}
